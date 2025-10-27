@@ -129,7 +129,7 @@ MULTIMODAL SHOP HELPER/
 
 ## System Architecture
 
-![System Architecture Diagram](data/for_readme/system_architecture.png)
+![System Architecture](data/for_readme/system_architecture.jpg)
 
 ### Architecture Components
 
