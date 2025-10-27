@@ -1,0 +1,17 @@
+qdrant-client
+transformers
+sentence-transformers
+Pillow
+gradio
+soundfile
+ollama
+gTTS
+edge_tts
+pythainlp
+numpy
+faster-whisper
+torch 
+torchvision 
+torchaudio --index-url https://download.pytorch.org/whl/cu118
+ctranslate2[cuda]
+scikit-learn

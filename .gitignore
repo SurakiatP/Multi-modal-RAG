@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache directories
+cache/
+.cache/
+__pycache__/
+
+# Model cache (HuggingFace)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.cache/huggingface/
+
+# Qdrant data
+qdrant_storage/
+cache/qdrant_storage/
+
+# TTS cache
+cache/tts_cache/*.mp3
+cache/tts_cache/*.wav
+
+# Logs
+*.log
+logs/
+
+# Evaluation results
+evaluation_results.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Data (optional - uncomment if you don't want to commit data)
+# data/images/*.jpg
+# data/images/*.png
+# data/products.json
+
+# Secrets
+secrets/
+*.key
+*.pem
+credentials.json
+
+# Docker volumes
+docker-compose.override.yml
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Large files
+*.bin
+*.h5
+*.pkl
+*.pickle
+
+# Windows
+*.exe
+*.dll
+*.so
+*.dylib
