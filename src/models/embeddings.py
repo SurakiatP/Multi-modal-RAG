@@ -69,7 +69,7 @@ class EmbeddingModels:
         embeddings = self.text_model.encode(
             final_text,
             convert_to_tensor=False,
-            normalize_embeddings=True  # เพิ่ม normalization
+            normalize_embeddings=True 
         )
         
         return embeddings
@@ -79,7 +79,6 @@ class EmbeddingModels:
         if not image_paths:
             return None
         
-        # หารูปที่มีอยู่จริง
         valid_image_path = None
         for img_path in image_paths:
             if Path(img_path).exists():
