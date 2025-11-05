@@ -311,7 +311,7 @@ def main():
     else:
         print("\n[ERROR] System needs major improvements")
     
-    # Save results - แก้ตรงนี้
+    # Save results
     results = {
         "retrieval_metrics": {
             "precision": float(retrieval_metrics["precision"]),
